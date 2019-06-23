@@ -1,0 +1,36 @@
+{
+  "name": "rescript-disable-eslint",
+  "version": "1.0.1",
+  "description": "Enable web worker-loader for your create-react-app project.",
+  "source": "src/index.js",
+  "module": "dist/rescript-disable-eslint.mjs",
+  "main": "dist/rescript-disable-eslint.js",
+  "unpkg": "dist/rescript-disable-eslint.umd.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linonetwo/rescript-disable-eslint.git"
+  },
+  "keywords": [
+    "rescript",
+    "react",
+    "create-react-app",
+    "eject",
+    "eslint",
+    "cra",
+    "rewired"
+  ],
+  "author": "linonetwo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linonetwo/rescript-disable-eslint/issues"
+  },
+  "homepage": "https://github.com/linonetwo/rescript-disable-eslint#readme"
+}
