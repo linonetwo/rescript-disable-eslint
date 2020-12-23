@@ -11,6 +11,9 @@
     "build": "microbundle",
     "dev": "microbundle watch"
   },
+  "dependencies": {
+    "@rescripts/utilities": "^0.0.8"
+  },
   "devDependencies": {
     "microbundle": "^0.11.0"
   },
